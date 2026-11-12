@@ -1,0 +1,13 @@
+{
+  "name": "campaign-amplification-platform",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Community-funded campaign amplification platform prototype",
+  "scripts": {
+    "start:frontend": "npm run start --prefix frontend",
+    "start:backend": "npm run start --prefix backend",
+    "frontend:web": "npm run web --prefix frontend",
+    "frontend:android": "npm run android --prefix frontend",
+    "frontend:ios": "npm run ios --prefix frontend"
+  }
+}

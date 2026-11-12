@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Expo / React Native
+.expo/
+*/.expo/
+dist/
+*/dist/
+web-build/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# SQLite & Database Journals
+*.db
+*.db-shm
+*.db-wal
+
+# Logs & Debug
+*.log
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# Environment variables & Local configuration
+.env
+.env*.local
+*.local
+
+# System & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
